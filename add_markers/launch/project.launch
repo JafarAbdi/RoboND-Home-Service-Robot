@@ -1,0 +1,4 @@
+<launch>
+<node pkg="pick_objects" type="pick_objects_node" name="pick_objects_node"/>
+<node pkg="add_markers" type="pick_place_markers_node" name="pick_place_markers_node" launch-prefix="xterm -e"/>
+</launch>
